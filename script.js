@@ -20,4 +20,4 @@ Email ID: ${email}`;
             alert(alertMessage);
         });
 }    
-             submitForm();          
+                 
