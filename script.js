@@ -7,9 +7,12 @@ function submitForm(e) {
 	var phone = document.getElementById('phone').value;
 	var email = document.getElementById('email').value;
 	
-alert("First Name :" + firstName;
-            "Last Name: " + lastName;
-            "Phone Number: " + phoneNumber;
-            "Email ID: " + email;)
+  const alertMessage = `First Name: ${firstName} 
+Last Name: ${lastName} 
+Phone Number: ${phoneNumber} 
+Email ID: ${email}`;
+
+            // Show the alert
+            alert(alertMessage);
 }    
              submitForm();          
